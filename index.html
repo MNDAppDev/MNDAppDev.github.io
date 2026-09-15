@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MND App Development</title>
+<meta name="description" content="Small, friendly apps by MND App Development.">
+<link rel="icon" href="mood-bubbles/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Figtree:wght@400;600&display=swap">
+<style>
+  :root { --ground: #FFF7FB; --surface: #FFFFFF; --ink: #2A2033; --muted: #6E6478; --line: #EEDDEA; --accent: #3D7BFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground: #1C1726; --surface: #251E31; --ink: #F1EBF6; --muted: #B4A8BF; --line: #3A2F46; --accent: #8DB0FF; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 400 17px/1.6 "Figtree", "Segoe UI", system-ui, sans-serif; padding: 56px 20px; }
+  main { max-width: 620px; margin: 0 auto; display: grid; gap: 28px; }
+  h1 { font: 600 clamp(30px, 6vw, 40px)/1.15 "Fredoka", "Arial Rounded MT Bold", sans-serif; margin: 0; }
+  p { margin: 0; color: var(--muted); }
+  .app { display: flex; gap: 16px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 16px 18px; }
+  .app img { width: 60px; height: 60px; border-radius: 14px; }
+  .app h2 { font: 600 20px/1.2 "Fredoka", sans-serif; margin: 0 0 2px; }
+  .app p { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div>
+    <h1>MND App Development</h1>
+    <p>Small, friendly apps that respect your privacy.</p>
+  </div>
+  <div class="app">
+    <img src="mood-bubbles/icon.png" alt="Mood Bubbles app icon">
+    <div>
+      <h2>Mood Bubbles</h2>
+      <p>A cute, private mood tracker for Android. <a href="mood-bubbles/privacy/">Privacy policy</a></p>
+    </div>
+  </div>
+  <p>Contact: <a href="mailto:mndappdevelopment@gmail.com">mndappdevelopment@gmail.com</a></p>
+</main>
+</body>
+</html>
